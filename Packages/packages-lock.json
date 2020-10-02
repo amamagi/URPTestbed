@@ -1,5 +1,12 @@
 {
   "dependencies": {
+    "com.amamagi.shellintegration": {
+      "version": "https://github.com/amamagi/AmmgUnityUtilities.git?path=/Assets/ShellIntegration",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "5bf1804895d30f20798b1007cc0911fdc38f8f10"
+    },
     "com.unity.collab-proxy": {
       "version": "1.2.16",
       "depth": 0,
