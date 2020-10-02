@@ -5,9 +5,9 @@ namespace UnityTemplateProjects.LiveSwitcher.Runtime
 {
     public class LiveSwitcherTextureManager : MonoBehaviour
     {
-        [SerializeField] private Camera _camera;
-        [SerializeField] private Material _liveSwitcherWindowMaterial;
-        [SerializeField] private Material _liveSwitcherPreviewMatereial;
+        [SerializeField] private Camera _camera = null;
+        [SerializeField] private Material _liveSwitcherWindowMaterial = null;
+        [SerializeField] private Material _liveSwitcherPreviewMatereial = null;
         [SerializeField] private RenderTexture _liveSwitcherRT;
         private static readonly int BaseMap = Shader.PropertyToID("_BaseMap");
 
